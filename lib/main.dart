@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
 import 'layout/home_layout.dart';
-
+import 'onboardingScreen/onboarding_screen.dart';
 
 void main() async {
 
-  runApp(MyApp());
+  runApp(OnboardingScreen());
 }
 
 class MyApp extends StatelessWidget {
